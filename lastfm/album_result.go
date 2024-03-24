@@ -4,7 +4,7 @@ import "encoding/xml"
 
 //album.addTags (empty)
 
-//album.getInfo
+// album.getInfo
 type AlbumGetInfo struct {
 	XMLName     xml.Name `xml:"album"`
 	Name        string   `xml:"name"`
@@ -46,7 +46,7 @@ type AlbumGetInfo struct {
 	} `xml:"wiki"`
 }
 
-//album.getTags
+// album.getTags
 type AlbumGetTags struct {
 	XMLName xml.Name `xml:"tags"`
 	Artist  string   `xml:"artist,attr"`
@@ -57,7 +57,7 @@ type AlbumGetTags struct {
 	} `xml:"tag"`
 }
 
-//album.getTopTags
+// album.getTopTags
 type AlbumGetTopTags struct {
 	XMLName xml.Name `xml:"toptags"`
 	Aritist string   `xml:"artist,attr"`
@@ -71,7 +71,7 @@ type AlbumGetTopTags struct {
 
 //album.removeTag (empty)
 
-//album.search
+// album.search
 type AlbumSearch struct {
 	XMLName    xml.Name `xml:"results"`
 	OpenSearch string   `xml:"opensearch,attr"`

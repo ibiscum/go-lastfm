@@ -4,7 +4,7 @@ import (
 	"net/url"
 )
 
-//Mobile app style
+// Mobile app style
 func (api *Api) Login(username, password string) (err error) {
 	defer func() { appendCaller(err, "lastfm.Login") }()
 
@@ -20,7 +20,7 @@ func (api *Api) Login(username, password string) (err error) {
 	return
 }
 
-//Desktop app style
+// Desktop app style
 func (api Api) GetToken() (token string, err error) {
 	defer func() { appendCaller(err, "lastfm.GetToken") }()
 
@@ -40,7 +40,7 @@ func (api Api) GetAuthTokenUrl(token string) (uri string) {
 	return
 }
 
-//Web app style
+// Web app style
 func (api Api) GetAuthRequestUrl(callback string) (uri string) {
 	urlParams := url.Values{}
 	urlParams.Add("api_key", api.params.apikey)
@@ -51,7 +51,7 @@ func (api Api) GetAuthRequestUrl(callback string) (uri string) {
 	return
 }
 
-//Desktop and Web app style
+// Desktop and Web app style
 func (api *Api) LoginWithToken(token string) (err error) {
 	defer func() { appendCaller(err, "lastfm.LoginWithToken") }()
 
