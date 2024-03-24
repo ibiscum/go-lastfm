@@ -1,18 +1,18 @@
 # go-lastfm
 
 <p align="center">
-  <img alt="Go version" src="https://img.shields.io/github/go-mod/go-version/sonjek/go-lastfm">
-  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/sonjek/go-lastfm">
-  <a href="https://github.com/sonjek/go-lastfm/commits/master">
-    <img src="https://img.shields.io/github/last-commit/sonjek/go-lastfm.svg" target="_blank" />
+  <img alt="Go version" src="https://img.shields.io/github/go-mod/go-version/ibiscum/go-lastfm">
+  <img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/ibiscum/go-lastfm">
+  <a href="https://github.com/ibiscum/go-lastfm/commits/master">
+    <img src="https://img.shields.io/github/last-commit/ibiscum/go-lastfm.svg" target="_blank" />
   </a>
-  <a href="https://pkg.go.dev/github.com/sonjek/go-lastfm" title="GoDoc">
-    <img src="https://pkg.go.dev/badge/github.com/sonjek/go-lastfm?status.svg">
+  <a href="https://pkg.go.dev/github.com/ibiscum/go-lastfm" title="GoDoc">
+    <img src="https://pkg.go.dev/badge/github.com/ibiscum/go-lastfm?status.svg">
   </a>
-  <a href="https://github.com/sonjek/go-lastfm/graphs/contributors">
-    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/sonjek/go-lastfm">
+  <a href="https://github.com/ibiscum/go-lastfm/graphs/contributors">
+    <img alt="GitHub contributors" src="https://img.shields.io/github/contributors/ibiscum/go-lastfm">
   </a>
-  <a href="https://github.com/sonjek/go-lastfm/blob/master/LICENSE" title="License: MIT">
+  <a href="https://github.com/ibiscum/go-lastfm/blob/master/LICENSE" title="License: MIT">
     <img src="https://img.shields.io/badge/License-MIT-blue.svg">
   </a>
 </p>
@@ -26,11 +26,11 @@ Golang wrapper for the Last.fm API 2.0
 
 Get the source codes from github:
 
-    % go get github.com/sonjek/go-lastfm/lastfm
+    % go get github.com/ibiscum/go-lastfm/lastfm
 
 Import the package:
 
-    import "github.com/sonjek/go-lastfm/lastfm"
+    import "github.com/ibiscum/go-lastfm/lastfm"
 
 ## Usage
 
@@ -167,4 +167,4 @@ There are three ways to authenticate your requests, which to choose depends on w
 * [user.getWeeklyTrackChart](https://www.last.fm/api/show/user.getWeeklyTrackChart)
 
 ## Licence
-MIT Licenced. See [LICENCE](https://github.com/sonjek/go-lastfm/blob/master/LICENSE).
+MIT Licenced. See [LICENCE](https://github.com/ibiscum/go-lastfm/blob/master/LICENSE).

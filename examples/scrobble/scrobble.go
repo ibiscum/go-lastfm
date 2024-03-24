@@ -7,7 +7,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/sonjek/go-lastfm/lastfm"
+	"github.com/ibiscum/go-lastfm/lastfm"
 )
 
 func getTrimmedString(r *bufio.Reader, msg string) (res string) {

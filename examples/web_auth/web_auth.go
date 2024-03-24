@@ -14,7 +14,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/sonjek/go-lastfm/lastfm"
+	"github.com/ibiscum/go-lastfm/lastfm"
 )
 
 const TopPage = `
